@@ -13,6 +13,8 @@ namespace SchoolManager
     {
         static void Main(string[] args)
         {
+            //Hey this is a coment
+            Console.WriteLine("Hey");
             Injector.SetupContainer();
             var schoolDownloader = Injector.Container.GetInstance<ISchoolDownloader>();
             var dataTableBuilder = Injector.Container.GetInstance<IDataTableBuilder>();
